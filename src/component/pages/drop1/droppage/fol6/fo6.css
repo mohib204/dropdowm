@@ -1,0 +1,84 @@
+/* fo6.css */
+
+/* General body and background styling */
+.p {
+    font-family: 'Arial', sans-serif;
+    background-color: #b1e2ff;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the main heading (h1) */
+  .q {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the main paragraph */
+  .r {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for ordered lists */
+  .s, .t {
+    list-style-type: decimal;
+    padding-left: 30px;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for list items */
+  .s li, .t li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+  }
+  
+  /* Styling for smaller subheadings (h3) */
+  .v {
+    color: #0073e6;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Styling for specific heading sections (h3 with class w) */
+  .w {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for unordered lists (for "I'd like to have") */
+  ul {
+    padding-left: 30px;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Styling for strong elements (bold answers) */
+  strong {
+    color: #0073e6;
+  }
+  
+  /* Additional spacing between sections */
+  h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  

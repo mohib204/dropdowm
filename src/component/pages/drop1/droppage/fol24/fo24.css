@@ -1,0 +1,52 @@
+/* fo24.css */
+.ssa {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(51, 180, 255),white,rgb(98, 218, 255));
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .ssb {
+    background-color: #3b89ff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ssb h1 {
+    font-size: 2.5rem;
+    margin-left: 300px;
+    color: black;
+  }
+  
+  .ssc {
+    margin-top: 30px;
+    background: linear-gradient(white,rgb(129, 223, 255));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ssd {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .ssd strong {
+    color: #2c3e50;
+  }
+  
+  .ssd a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .ssd a:hover {
+    text-decoration: underline;
+  }
+  

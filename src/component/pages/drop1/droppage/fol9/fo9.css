@@ -1,0 +1,60 @@
+/* fo9.css */
+
+/* General container styling */
+.gg {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(white,rgb(120, 206, 255));
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    width: 500px;
+    margin-left: 450px;
+  }
+  
+  /* Styling for the main heading (h1) */
+  .hh {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the unordered list */
+  .ii {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for each list item */
+  .ii li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  /* Adding custom bullets to the list items */
+  .ii li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0073e6; /* Blue bullet color */
+    font-size: 1.5em;
+    top: 0;
+    margin-top: 2px;
+  }
+  
+  /* Hover effect on list items */
+  .ii li:hover {
+    color: #0073e6;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  

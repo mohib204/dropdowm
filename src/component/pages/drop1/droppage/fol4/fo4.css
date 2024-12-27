@@ -1,0 +1,50 @@
+/* fo4.css */
+
+/* General body styling */
+
+  
+  /* Main container styling */
+  .j {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #68e1ff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main heading */
+  .k {
+    font-size: 28px;
+    text-align: center;
+    color: #2c3e50; /* Darker blue-grey color */
+    margin-bottom: 20px;
+  }
+  
+  /* Section styling */
+  .l {
+    padding: 15px;
+    background-color: #f9f9f9; /* Slightly lighter background for sections */
+    border-radius: 8px;
+    border: 1px solid #dce1e6;
+  }
+  
+  /* Ordered list styling */
+  ol {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: decimal;
+  }
+  
+  ol li {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Emphasized list items */
+  ol li:hover {
+    color: #007acc; /* Highlight color on hover */
+  }
+  

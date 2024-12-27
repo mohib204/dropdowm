@@ -1,0 +1,59 @@
+/* fol1.css */
+
+/* General styles for the body */
+
+.f{
+    color: black;
+}
+
+/* Main container */
+.d {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+
+  background-color: #82e2ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #4a90e2; /* Soft blue */
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  border-bottom: 2px solid #4a90e2; /* Line under section titles */
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+/* Styles for ordered lists */
+ol {
+  margin: 10px 0 20px 20px;
+  padding-left: 20px;
+}
+
+ol li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 20px;
+}
+
+/* Highlight alternating section background for clarity */
+section:nth-child(odd) {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}

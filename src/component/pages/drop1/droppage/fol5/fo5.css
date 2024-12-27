@@ -1,0 +1,54 @@
+/* fo5.css */
+
+.m {
+    font-family: 'Arial', sans-serif;
+    background-color: #5cecff;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .n {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .o {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .o h2 {
+    color: #0073e6;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.1em;
+  }
+  
+  ul li {
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  ul li::before {
+    content: "• ";
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+  

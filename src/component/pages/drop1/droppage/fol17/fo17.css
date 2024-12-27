@@ -1,0 +1,52 @@
+/* General styling for the page */
+.ppp {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(white,rgb(69, 196, 255));
+    padding: 40px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the movie list */
+  .uuu {
+    background-color: #888888;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    list-style-type: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for each movie item */
+  .uuu li {
+    background-color: #fafafa;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-left: 5px solid #3498db;
+    border-radius: 4px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover effect for movie items */
+  .uuu li:hover {
+    background-color: #b2f0ff;
+    transform: translateX(8px);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .uuu li {
+      font-size: 1em;
+      padding: 12px;
+    }
+  
+    .ppp {
+      padding: 20px;
+    }
+  }
+  

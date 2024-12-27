@@ -1,0 +1,197 @@
+.windows96-container {
+    font-family: "Arial", sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 4px 4px gray;
+    margin: 20px auto; /* Center the container */
+    margin-top: 50px;
+  }
+  
+  .title-bar {
+    background: #000080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 8px;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  
+  .title-bar .control-buttons button {
+    background: white;
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+  }
+  
+  .menu-bar {
+    display: flex;
+    background: #c0c0c0;
+    padding: 4px;
+    cursor: default;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
+  }
+  
+  .menu-item {
+    margin-right: 16px;
+    position: relative;
+  }
+  
+  .menu-item:hover {
+    background: #000080;
+    color: white;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background: #c0c0c0;
+    border: 1px solid black;
+    padding: 4px;
+    margin-top: 2px;
+    z-index: 100; /* Ensures menu stays above other elements */
+  }
+  
+  .dropdown-item {
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background: #000080;
+    color: white;
+  }
+  
+  .content-area {
+    padding: 8px;
+    background: white;
+    height: 200px;
+  }
+  
+  /* Responsive Design */
+  
+  /* Medium Screens */
+  @media screen and (max-width: 768px) {
+    .windows96-container {
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 10px auto; /* Center with less margin */
+    }
+  
+    .title-bar {
+      font-size: 12px; /* Reduce font size */
+    }
+  
+    .menu-bar {
+      padding: 2px; /* Reduce padding */
+    }
+  
+    .content-area {
+      height: 150px; /* Reduce content area height */
+    }
+  }
+  
+  /* Small Screens */
+  @media screen and (max-width: 480px) {
+    .windows96-container {
+      width: 100%; /* Full width for very small screens */
+      border: none; /* Optional: Remove border for cleaner look */
+      box-shadow: none; /* Optional: Remove shadow */
+    }
+  
+    .title-bar {
+      font-size: 10px; /* Further reduce font size */
+      padding: 2px 4px; /* Adjust padding */
+    }
+  
+    .menu-bar {
+      font-size: 10px; /* Smaller menu font size */
+      flex-direction: column; /* Stack menu items vertically */
+    }
+  
+    .menu-item {
+      margin-bottom: 4px; /* Add space between stacked items */
+    }
+  
+    .dropdown-menu {
+      width: 100%; /* Make dropdowns span the container width */
+    }
+  
+    .content-area {
+      height: 120px; /* Further reduce content area height */
+    }
+  }
+/* 2 */
+.education-card {
+    font-family: "Arial", sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 4px 4px gray;
+    background-color: #c0c0c0;
+    margin: 20px auto;
+    height: 100vh;
+  }
+  
+  .education-title-bar {
+    background: #000080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 8px;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .education-title-bar .control-buttons button {
+    background: white;
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    cursor: pointer;
+  }
+  
+  .education-content {
+    padding: 16px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  
+  /* Medium Screens */
+  @media screen and (max-width: 768px) {
+    .education-card {
+      width: 90%;
+    }
+  
+    .education-title-bar {
+      font-size: 12px;
+    }
+  
+    .education-content {
+      font-size: 12px;
+    }
+  }
+  
+  /* Small Screens */
+  @media screen and (max-width: 480px) {
+    .education-card {
+      width: 100%;
+      box-shadow: none;
+    }
+  
+    .education-title-bar {
+      font-size: 10px;
+      padding: 2px 4px;
+    }
+  
+    .education-content {
+      font-size: 10px;
+    }
+  }
+  
+  /* 3 */
+  

@@ -1,0 +1,48 @@
+/* fo7.css */
+
+/* General body and background styling */
+.aa {
+    font-family: 'Arial', sans-serif;
+    background-color: #a2e9ff;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the main heading (h1) */
+  .bb {
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Styling for the introductory paragraph */
+  .cc {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Styling for ordered lists */
+  .dd {
+    list-style-type: decimal;
+    padding-left: 30px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Styling for list items */
+  .dd li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+  }
+  
+  /* Adding some space at the bottom of the list */
+  .dd li:last-child {
+    margin-bottom: 0;
+  }
+  
+  

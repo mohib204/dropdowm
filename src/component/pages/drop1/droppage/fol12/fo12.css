@@ -1,0 +1,82 @@
+/* fo12.css */
+
+/* General container styling */
+.vv {
+  font-family: 'Arial', sans-serif;
+  
+  padding: 30px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(151, 222, 255);
+  width: 700px;
+  margin-left: 350px;
+}
+
+/* Heading 1 styling */
+.ww {
+  color: #2a2a2a;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Paragraph styling */
+.xx {
+  color: #555;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Link styling inside paragraph */
+.xx a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.xx a:hover {
+  text-decoration: underline;
+}
+
+/* List styling for unordered lists */
+.yy, .aaa {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  font-size: 1.1em;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.yy li, .aaa li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for list items */
+.yy li:hover, .aaa li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Heading 2 styling */
+.zz {
+  color: #2a2a2a;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Additional spacing between sections */
+.vv {
+  gap: 40px;
+}

@@ -1,0 +1,39 @@
+/* fo11.css */
+
+/* General container styling */
+.rr {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(white,rgb(105, 233, 255));
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Main heading styling */
+  .ss {
+    color: #333;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Paragraph styling */
+  .tt {
+    color: #555;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0;
+    line-height: 1.6;
+  }
+  
+  /* Adding space between the heading and paragraph */
+  .rr {
+    gap: 20px;
+  }
+  

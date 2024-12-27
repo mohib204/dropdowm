@@ -1,0 +1,77 @@
+/* fo15.css */
+
+/* Container styling */
+.jjj {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(255, 255, 255),rgb(24, 197, 255));
+    padding: 40px;
+    margin: 0;
+    min-height: 100vh;
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .kkk {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .kkk h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000000;
+    margin-left: 60px;
+  }
+  
+  /* List styling */
+  .lll {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  .lll li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  /* List item hover effect */
+  .lll li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .kkk h1 {
+      font-size: 2em;
+    }
+    .lll {
+      font-size: 1.1em;
+    }
+  }
+  

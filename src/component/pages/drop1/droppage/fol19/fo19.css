@@ -1,0 +1,86 @@
+/* fo19.css */
+.xxxxx {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgb(81, 200, 255),white,rgb(71, 188, 255));
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .zzzzz {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 8px;
+  }
+  .zzzzz h1{
+    color: black;
+  }
+  .yyyyy {
+    margin-top: 20px;
+  }
+  
+  .aaaaa {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bbbbb {
+    background-color: #b7f4ff;
+    padding: 20px;
+    width: 900px;
+    margin: 15px 0;
+    margin-left: 220px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bbbbb h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .bbbbb p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .ccccc {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .ddddd {
+    font-size: 1rem;
+    color: #444;
+    margin-left: 20px;
+  }
+  
+  .fffff {
+    font-size: 1.1rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  .eeeee {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .eeeee h3 {
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  .eeeee p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
